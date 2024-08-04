@@ -1,0 +1,99 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #f4f4f4;
+}
+
+/* Styling header */
+header {
+    background: #2b00ff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation styling */
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* Main section styling */
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Center-align text */
+}
+
+img {
+    height: auto;
+    width: 80%; /* Adjusted width for better responsiveness */
+    max-width: 200px; /* Set max width for images */
+    margin: 1rem 0; /* Add some space around the image */
+}
+
+/* Section styling */
+section {
+    margin-bottom: 1.5rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+address {
+    font-style: normal;
+    text-align: center; /* Center-align contact details */
+}
+
+/* Footer styling */
+footer {
+    background: #0062ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
